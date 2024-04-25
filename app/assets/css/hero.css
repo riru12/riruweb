@@ -12,7 +12,7 @@
     line-height: 1;
 }
 
-.fancy:hover{
+.fancy:hover .enhance{
     animation: breathing 5s ease infinite;
 }
 
