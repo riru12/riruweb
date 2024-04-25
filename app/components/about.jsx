@@ -29,9 +29,9 @@ const About = () => {
             </div>
             <div className="flex flex-row gap-10 w-full">
                 <div className="flex flex-col min-w-32">
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '1' ? 'border-l-[3px] border-cyan-500' : 'border-l-[1px] border-neutral-600'}`} onClick={()=>setSelectedTab("professional")}>professional</button>
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '2' ? 'border-l-[3px] border-cyan-500' : 'border-l-[1px] border-neutral-600'}`} onClick={()=>setSelectedTab("education")}>education</button>
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '3' ? 'border-l-[3px] border-cyan-500' : 'border-l-[1px] border-neutral-600'}`} onClick={()=>setSelectedTab("personal")}>personal</button>
+                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '1' ? 'shadow-[-3px_0_0_0_rgba(188,237,197,1)]' : 'shadow-[-1px_0_0_0_rgba(82,82,82,1)]'}`} onClick={()=>setSelectedTab("professional")}>professional</button>
+                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '2' ? 'shadow-[-3px_0_0_0_rgba(188,237,197,1)]' : 'shadow-[-1px_0_0_0_rgba(82,82,82,1)]'}`} onClick={()=>setSelectedTab("education")}>education</button>
+                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '3' ? 'border-l-[3px] ' : 'border-l-[1px] border-neutral-600'}`} onClick={()=>setSelectedTab("personal")}>personal</button>
                 </div>
                 <div className="flex flex-col gap-4">
                     <div>
