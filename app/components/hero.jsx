@@ -3,7 +3,7 @@ import "../assets/css/hero.css";
 
 const Hero = () => {
     return(
-        <div id="hero" className="flex flex-col justify-center items-center h-screen px-4 mx-0 md:mx-[20vw] ">
+        <div id="hero" className="flex flex-col justify-center items-center h-screen px-4 mx-0 md:mx-[20vw]">
             <div className="unfancy font-mono text-neutral-400 py-2">hello! i'm</div>
             <div className="flex justify-center items-center h-40 w-full font-bold fancy name">
                 <div className="font-bold enhance gradient-text">
