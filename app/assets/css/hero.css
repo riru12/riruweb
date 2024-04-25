@@ -39,25 +39,31 @@
 .fancy:hover .enhance > :nth-child(1 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
-    transform: translate(-220%, -20%) rotate(8deg);
+    transform: translate(-240%, -20%) rotate(8deg);
 }
 
 .fancy:hover .enhance > :nth-child(2 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
-    transform: translate(-50%, 20%) rotate(2deg);
+    transform: translate(-70%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(3 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
-    transform: translate(120%, -20%) rotate(-3deg);
+    transform: translate(100%, -20%) rotate(-3deg);
 }
 
 .fancy:hover .enhance > :nth-child(4 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
-    transform: translate(160%, 20%) rotate(-8deg);
+    transform: translate(140%, 20%) rotate(-8deg);
+}
+
+.fancy:hover .enhance > :nth-child(5 of .special){
+    /* text-8xl */
+    font-size: 6rem; /* 96px */
+    transform: translate(430%, 20%) rotate(20deg);
 }
 
 @keyframes breathing {

@@ -9,6 +9,8 @@ export default function Home() {
       <Navbar />
       <Gradient />
       <Hero />
+      <Hero />
+      <Hero />
     </main>
   );
 }
