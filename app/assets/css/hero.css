@@ -2,15 +2,8 @@
     opacity:0.2;
 }
 
-#hero:has(.fancy:hover) .grow{
-    /* text-8xl */
-    font-size: 6rem; /* 96px */
-    transition: font-size 0.3s ease;
-}
-
-#hero:has(.fancy:hover) .shrink{
+#hero:has(.fancy:hover) .letter{
     font-size: 0px; /* 128px */
-    transition: font-size 0.3s ease;
 }
 
 .name {
@@ -19,40 +12,41 @@
     line-height: 1;
 }
 
-.fancy:not(:hover) .letter{
-    transition: font-size 0.4s ease;
+.fancy:hover{
+    animation: breathing 5s ease infinite;
 }
 
 .unfancy{
     transition: opacity 250ms ease;
 }
 
+.letter{
+    transition: font-size 0.4s ease;
+}
+
 .special{
     display:inline-block;
+    transition: transform 0.4s ease, font-size 0.4s ease;
 }
 
 .fancy:hover .enhance > :nth-child(1 of .special){
+    font-size: 6rem; /* 96px */
     transform: translate(-220%, -20%) rotate(8deg);
 }
 
 .fancy:hover .enhance > :nth-child(2 of .special){
+    font-size: 6rem; /* 96px */
     transform: translate(-50%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(3 of .special){
+    font-size: 6rem; /* 96px */
     transform: translate(120%, -20%) rotate(-3deg);
 }
 
 .fancy:hover .enhance > :nth-child(4 of .special){
+    font-size: 6rem; /* 96px */
     transform: translate(160%, 20%) rotate(-8deg);
-}
-
-.fancy:hover .enhance{
-    animation: breathing 5s ease infinite;
-}
-
-.enhance > .special {
-    transition: transform 350ms ease;
 }
 
 @keyframes breathing {
@@ -67,4 +61,4 @@
     100% {
       transform: scale(0.9);
     }
-  }
+}
