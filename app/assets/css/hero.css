@@ -40,35 +40,50 @@
     /* text-8xl */
     font-size: 6rem; /* 96px */
     transform: translate(-240%, -20%) rotate(8deg);
-    -webkit-transform: translate(-240%, -20%) rotate(8deg);
+    -ms-transform: translate(-70%, 20%) rotate(2deg);
+    -webkit-transform: translate(-70%, 20%) rotate(2deg);
+    -moz-transform: translate(-70%, 20%) rotate(2deg);
+    -o-transform: translate(-70%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(2 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
     transform: translate(-70%, 20%) rotate(2deg);
+    -ms-transform: translate(-70%, 20%) rotate(2deg);
     -webkit-transform: translate(-70%, 20%) rotate(2deg);
+    -moz-transform: translate(-70%, 20%) rotate(2deg);
+    -o-transform: translate(-70%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(3 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
     transform: translate(100%, -20%) rotate(-3deg);
-    -webkit-transform: translate(100%, -20%) rotate(-3deg);
+    -ms-transform: translate(-70%, 20%) rotate(2deg);
+    -webkit-transform: translate(-70%, 20%) rotate(2deg);
+    -moz-transform: translate(-70%, 20%) rotate(2deg);
+    -o-transform: translate(-70%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(4 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
     transform: translate(140%, 20%) rotate(-8deg);
-    -webkit-transform: translate(140%, 20%) rotate(-8deg);
+    -ms-transform: translate(-70%, 20%) rotate(2deg);
+    -webkit-transform: translate(-70%, 20%) rotate(2deg);
+    -moz-transform: translate(-70%, 20%) rotate(2deg);
+    -o-transform: translate(-70%, 20%) rotate(2deg);
 }
 
 .fancy:hover .enhance > :nth-child(5 of .special){
     /* text-8xl */
     font-size: 6rem; /* 96px */
     transform: translate(430%, 20%) rotate(20deg);
-    -webkit-transform: translate(430%, 20%) rotate(20deg);
+    -ms-transform: translate(-70%, 20%) rotate(2deg);
+    -webkit-transform: translate(-70%, 20%) rotate(2deg);
+    -moz-transform: translate(-70%, 20%) rotate(2deg);
+    -o-transform: translate(-70%, 20%) rotate(2deg);
 }
 
 @keyframes breathing {
