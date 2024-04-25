@@ -4,9 +4,9 @@ import "../assets/css/hero.css";
 const Hero = () => {
     return(
         <div id="hero" className="flex flex-col items-center mt-36 mx-0 px-4 md:mx-[20vw]">
-            <div className="unfancy">HEY! MY NAME IS</div>
-            <div className="flex justify-center items-center h-52 w-full font-bold fancy name">
-                <div className="font-bold enhance">
+            <div className="unfancy font-mono text-neutral-400">hello! i'm</div>
+            <div className="flex justify-center items-center h-40 w-full font-bold fancy name">
+                <div className="font-bold enhance flex">
                     <span className="letter">B</span>
                     <span className="special">r</span>
                     <span className="special">i</span>
@@ -22,6 +22,7 @@ const Hero = () => {
                     <span className="letter">n</span>
                 </div>
             </div>
+            <div className="unfancy font-mono text-neutral-400">developer, digital artist, and pc enthusiast</div>
         </div>
     )
 }
