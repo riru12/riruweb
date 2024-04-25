@@ -2,33 +2,69 @@
     opacity:0.2;
 }
 
-.fancy {
-    /* equivalent to text-8xl */
-    font-size: 6rem;
+#hero:has(.fancy:hover) .grow{
+    /* text-8xl */
+    font-size: 6rem; /* 96px */
+    transition: font-size 0.3s ease;
+}
+
+#hero:has(.fancy:hover) .shrink{
+    font-size: 0px; /* 128px */
+    transition: font-size 0.3s ease;
+}
+
+.name {
+    /* text-7xl */
+    font-size: 4.5rem; /* 72px */
     line-height: 1;
-    animation: shrink 1s forwards;
 }
 
-.fancy:hover {
-    animation: enlargen 1s forwards;
+.fancy:not(:hover) .letter{
+    transition: font-size 0.4s ease;
 }
 
-@keyframes enlargen {
-    100% {
-        /* equivalent to text-9xl */
-        font-size: 8rem; /* 128px */
-        line-height: 1;
-    }
+.unfancy{
+    transition: opacity 250ms ease;
 }
 
-@keyframes shrink {
+.special{
+    display:inline-block;
+}
+
+.fancy:hover .enhance > :nth-child(1 of .special){
+    transform: translate(-220%, -20%) rotate(8deg);
+}
+
+.fancy:hover .enhance > :nth-child(2 of .special){
+    transform: translate(-50%, 20%) rotate(2deg);
+}
+
+.fancy:hover .enhance > :nth-child(3 of .special){
+    transform: translate(120%, -20%) rotate(-3deg);
+}
+
+.fancy:hover .enhance > :nth-child(4 of .special){
+    transform: translate(160%, 20%) rotate(-8deg);
+}
+
+.fancy:hover .enhance{
+    animation: breathing 5s ease infinite;
+}
+
+.enhance > .special {
+    transition: transform 350ms ease;
+}
+
+@keyframes breathing {
     0% {
-        /* equivalent to text-9xl */
-        font-size: 8rem; /* 128px */
-        line-height: 1;
+      transform: scale(0.9);
     }
+  
+    25% {
+      transform: scale(1);
+    }
+  
     100% {
-        font-size: 6rem; /* 128px */
-        line-height: 1;
+      transform: scale(0.9);
     }
-}
+  }
