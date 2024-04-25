@@ -26,7 +26,14 @@
 
 .special{
     display:inline-block;
-    transition: transform 0.4s ease, font-size 0.4s ease;
+    transition: transform 0.4s ease, font-size 0.4s ease, color 0.4s ease;
+}
+
+.fancy:hover .special{
+    background: linear-gradient(109.6deg, rgb(80, 154, 175) 11.2%, rgb(125, 216, 199) 59.3%, rgb(245, 255, 195) 92.7%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .fancy:hover .enhance > :nth-child(1 of .special){
@@ -55,7 +62,7 @@
 
 @keyframes breathing {
     0% {
-      transform: scale(0.9);
+      transform: scale(0.9)
     }
   
     25% {
