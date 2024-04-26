@@ -10,6 +10,7 @@
     /* text-7xl */
     font-size: 4.5rem; /* 72px */
     line-height: 1;
+    user-select: none;
 }
 
 .fancy:hover .enhance{
