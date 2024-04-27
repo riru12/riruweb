@@ -1,28 +1,7 @@
-"use client";
-import { React, useState} from "react";
+import { React } from "react";
 import "../assets/css/slider.css";
 
 const About = () => {
-    const [selectedTab, setSelectedTab] = useState("professional");
-
-    const content ={
-        professional: {
-            button: "1",
-            date: "January 2002 - Present",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        education: {
-            button: "2",
-            date:"January 2022 - December 2023",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        personal: {
-            button: "3",
-            date:"December 2023 - January 2024",
-            paragraph:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        }
-    };
-
     return(
         <section id="about" className="py-6 mx-[10vw] lg:mx-[20vw]">
             <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
