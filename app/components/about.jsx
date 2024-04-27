@@ -35,9 +35,9 @@ const About = () => {
                 <div className="flex gap-10 flex-col md:flex-row">
                     <div className="relative h-min">
                             <nav className="flex flex-row md:flex-col">
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="personal" className="block text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">personal</label></div>
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="education" className="block text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">education</label></div>
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="professional" className="block text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">professional</label></div>
+                                <div className="w-[33.3%] md:w-full"><label htmlFor="personal" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">personal</label></div>
+                                <div className="w-[33.3%] md:w-full"><label htmlFor="education" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">education</label></div>
+                                <div className="w-[33.3%] md:w-full"><label htmlFor="professional" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">professional</label></div>
                             </nav>
                             <div id="slider" className="slider"></div>
                             <div className="sliderBack"></div>
