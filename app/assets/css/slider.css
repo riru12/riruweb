@@ -20,11 +20,11 @@
     }
 
     #education:checked ~ div div nav + .slider {
-        top: 33%;
+        top: 33.3%;
     }
 
     #professional:checked ~ div div nav + .slider {
-        top: 66%;
+        top: 66.7%;
 }
 }
 
