@@ -1,5 +1,6 @@
 "use client";
 import { React, useState} from "react";
+import "../assets/css/slider.css";
 
 const About = () => {
     const [selectedTab, setSelectedTab] = useState("professional");
@@ -23,22 +24,33 @@ const About = () => {
     };
 
     return(
-        <section id="about" className="flex flex-col py-6 gap-10 mx-[10vw] lg:mx-[20vw]">
-            <div className="font-bold text-3xl">
-                About
-            </div>
-            <div className="flex flex-row gap-10 w-full">
-                <div className="flex flex-col min-w-32">
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '1' ? 'shadow-[-3px_0_0_0_rgba(188,237,197,1)]' : 'shadow-[-1px_0_0_0_rgba(82,82,82,1)]'}`} onClick={()=>setSelectedTab("professional")}>professional</button>
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '2' ? 'shadow-[-3px_0_0_0_rgba(188,237,197,1)]' : 'shadow-[-1px_0_0_0_rgba(82,82,82,1)]'}`} onClick={()=>setSelectedTab("education")}>education</button>
-                    <button className={`text-left px-4 py-2 ${content[selectedTab].button === '3' ? 'border-l-[3px] ' : 'border-l-[1px] border-neutral-600'}`} onClick={()=>setSelectedTab("personal")}>personal</button>
+        <section id="about" className="py-6 mx-[10vw] lg:mx-[20vw]">
+            <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
+                <div className="font-bold text-3xl">
+                    About
                 </div>
-                <div className="flex flex-col gap-4">
-                    <div>
-                        <div className="font-bold text-xl">Details</div>
-                        <div className="font-mono text-sm">{content[selectedTab].date}</div>
+                <input id="personal" name="slider" className="hidden" type="radio" defaultChecked></input>
+                <input id="education" name="slider" className="hidden" type="radio"></input>
+                <input id="professional" name="slider" className="hidden" type="radio"></input>
+                <div className="flex gap-10 flex-col md:flex-row">
+                    <div className="relative h-min">
+                            <nav className="flex flex-row md:flex-col">
+                                <div className="w-[33%] md:w-full"><label htmlFor="personal" className="block text-neutral-300 cursor-pointer py-2 px-4 text-center md:text-left hover:bg-neutral-900">personal</label></div>
+                                <div className="w-[33%] md:w-full"><label htmlFor="education" className="block text-neutral-300 cursor-pointer py-2 px-4 text-center md:text-left hover:bg-neutral-900">education</label></div>
+                                <div className="w-[33%] md:w-full"><label htmlFor="professional" className="block text-neutral-300 cursor-pointer py-2 px-4 text-center md:text-left hover:bg-neutral-900">professional</label></div>
+                            </nav>
+                            <div id="slider" className="slider"></div>
+                            <div className="sliderBack"></div>
                     </div>
-                    <div>{content[selectedTab].paragraph}</div>
+                    <div className="flex flex-row">
+                        <div className="flex flex-col gap-4">
+                                <div>
+                                    <div className="font-bold text-xl">Details</div>
+                                    <div className="font-mono text-sm text-neutral-400">January 2002 - Present</div>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
