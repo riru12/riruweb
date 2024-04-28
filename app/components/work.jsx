@@ -11,7 +11,7 @@ const Work = () => {
                 <input id="tab-1" name="slider" className="hidden" type="radio" defaultChecked></input>
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
-                <div className="flex gap-10 h-[40vh] flex-col md:flex-row">
+                <div className="flex gap-10 h-fit flex-col md:h-[40vh] md:flex-row">
                     <div className="relative h-min">
                             <nav className="flex flex-row md:flex-col">
                                 <div className="whitespace-nowrap w-[33.3%] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
