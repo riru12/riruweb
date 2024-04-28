@@ -76,7 +76,7 @@
         width: 150px;
         height: 3px;
         left:0;
-        top:90%;
+        top:85%;
         border-radius: 1px;
         transition: all 0.3s ease;
         z-index:1;
@@ -87,7 +87,7 @@
         background-color: #525252;
         width:450px; /* adjust this when changing number of content */
         height:2px;
-        top:90%;
+        top:85%;
     }
 
     #tab-2:checked ~ div div nav + .slider {
