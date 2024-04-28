@@ -63,7 +63,7 @@
     .slider{
         position: absolute;
         background-color: #bcedc5;
-        width: 33%;
+        width: 150px;
         height: 3px;
         left:0%;
         top:100%;
@@ -81,10 +81,10 @@
     }
 
     #tab-2:checked ~ div div nav + .slider {
-        left: 33.3%;
+        left: 150px;
     }
     
     #tab-3:checked ~ div div nav + .slider {
-        left: 66.7%;
+        left: 300px;
     }
 }
