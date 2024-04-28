@@ -1,3 +1,8 @@
+.custom-scrollbar {
+    scrollbar-color: #2b2b2b #1a1a1a;
+    scrollbar-width: thin;
+}
+
 .content-1 {
     display:none;
 }
