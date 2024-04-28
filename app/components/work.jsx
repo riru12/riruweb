@@ -40,7 +40,7 @@ const Work = () => {
                     </div>
                     <div className="work-content content-2">
                         <div>
-                        <div className="font-bold text-xl">Information Security Intern <span className="text-[#bcedc5]">@ AUB</span></div>
+                        <div className="font-bold text-xl">Information Security Intern <span className="text-[#bcedc5]">@ Asia United Bank</span></div>
                             <div className="font-mono text-sm text-neutral-400">July 2023 - August 2023</div>
                         </div>
                         <div className="mt-4 text-neutral-300">Interned at Asia United Bank and collaborated with other interns in developing a CLI tool using Go to automate running scripts that set up servers in accordance with security benchmarks.</div>
