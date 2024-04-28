@@ -26,7 +26,7 @@ const Work = () => {
                             <div className="font-bold text-xl">BS Computer Science <span className="text-[#bcedc5]">@ University of the Philippines</span></div>
                             <div className="font-mono text-sm text-neutral-400">2020 - 2024</div>
                         </div>
-                        <div className="mt-4">I had the opportunity to study in the Philippines' premier state university. Learned computer science concepts and developed plenty of projects for software engineering classes, operating systems classes, and data structure classes (stuff like an RSDL task scheduler and an AI model to predict risk of heart attacks).</div>
+                        <div className="mt-4 text-neutral-300">I had the opportunity to study in the Philippines' premier state university. Learned computer science concepts and developed plenty of projects for software engineering classes, operating systems classes, and data structure classes (stuff like an RSDL task scheduler and an AI model to predict risk of heart attacks).</div>
                         <div className="flex gap-10 font-mono text-neutral-400 mt-4">
                             <div className="px-4">
                                 <ul className="list-disc list-inside">
@@ -43,14 +43,14 @@ const Work = () => {
                         <div className="font-bold text-xl">Information Security Intern <span className="text-[#bcedc5]">@ AUB</span></div>
                             <div className="font-mono text-sm text-neutral-400">July 2023 - August 2023</div>
                         </div>
-                        <div className="mt-4">Interned at Asia United Bank and collaborated with other interns in developing a CLI tool using Go to automate running scripts that set up servers in accordance with security benchmarks.</div>
+                        <div className="mt-4 text-neutral-300">Interned at Asia United Bank and collaborated with other interns in developing a CLI tool using Go to automate running scripts that set up servers in accordance with security benchmarks.</div>
                     </div>
                     <div className="content-3">
                         <div>
                         <div className="font-bold text-xl">Digital Artist <span className="text-[#bcedc5]">through Freelance and Commission</span></div>
                             <div className="font-mono text-sm text-neutral-400">2021 - Present</div>
                         </div>
-                        <div className="mt-4">Delivered high-quality commissions for clients as a side activity using the skills I've learned through self-learning. These commissions range from personal portraits to art of characters they like. Keep scrolling to see some of my work!</div>
+                        <div className="mt-4 text-neutral-300">Delivered high-quality commissions for clients as a side activity using the skills I've learned through self-learning. These commissions range from personal portraits to art of characters they like. Keep scrolling to see some of my work!</div>
                     </div>
                 </div>
             </div>

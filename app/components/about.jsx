@@ -9,13 +9,13 @@ const About = () => {
                     <div className="font-bold text-3xl">
                         About
                     </div>
-                    <div>
+                    <div className="text-neutral-300">
                         I was born and raised in the Philippines. My passions have brought me to software development and the field of Computer Science — while I enjoy front-end development a lot, I also dabble in other domains to learn new skills and hone them further.
                     </div>
-                    <div>
+                    <div className="text-neutral-300">
                         I am also a digital artist! I take commissions as freelance work from time to time. I have a lot of experience in graphic design from past projects and visual works.
                     </div>
-                    <div>
+                    <div className="text-neutral-300">
                         Here are some technologies I've been working with recently:
                     </div>
                     <div className="flex gap-10 font-mono text-neutral-400">
