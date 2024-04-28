@@ -1,3 +1,21 @@
+.content-1 {
+    display:none;
+}
+
+.content-2 {
+    display:none;
+}
+
+.content-3 {
+    display:none;
+}
+
+#tab-1:checked ~ div .content-1,
+#tab-2:checked ~ div .content-2,
+#tab-3:checked ~ div .content-3 {
+    display:block;
+}
+
 @media (min-width: 768px) {
     .slider{
         position: absolute;
