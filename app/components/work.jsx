@@ -22,7 +22,7 @@ const Work = () => {
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
                 <div className="flex gap-10 flex-col md:h-[40vh] md:flex-row">
                     <div className="mx-[-10vh] px-20 md:mx-auto md:px-0"> {/* ADJUST PADDING HERE WHEN SCALING (the one not in md breakpoint, probably change it to 10 in the future) */}
-                        <div className="relative h-[45px] w-full md:h-min">
+                        <div className="relative h-[45px] w-full overflow-x-scroll md:overflow-hidden md:h-min">
                             <nav className="flex flex-row md:flex-col">
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">AUB</label></div>
