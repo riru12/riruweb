@@ -3,31 +3,35 @@ import "../assets/css/slider.css";
 
 const About = () => {
     return(
-        <section id="about" className="py-6 mx-[10vw] lg:mx-[20vw]">
+        <section id="about" className="py-24 mx-[10vw] lg:mx-[20vw]">
             <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
-                <div className="font-bold text-3xl">
-                    About
-                </div>
-                <input id="personal" name="slider" className="hidden" type="radio" defaultChecked></input>
-                <input id="education" name="slider" className="hidden" type="radio"></input>
-                <input id="professional" name="slider" className="hidden" type="radio"></input>
-                <div className="flex gap-10 flex-col md:flex-row">
-                    <div className="relative h-min">
-                            <nav className="flex flex-row md:flex-col">
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="personal" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">personal</label></div>
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="education" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">education</label></div>
-                                <div className="w-[33.3%] md:w-full"><label htmlFor="professional" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">professional</label></div>
-                            </nav>
-                            <div id="slider" className="slider"></div>
-                            <div className="sliderBack"></div>
+                <div className="flex flex-col gap-4 ">
+                    <div className="font-bold text-3xl">
+                        About
                     </div>
-                    <div className="flex flex-row">
-                        <div className="flex flex-col gap-4">
-                                <div>
-                                    <div className="font-bold text-xl">Details</div>
-                                    <div className="font-mono text-sm text-neutral-400">January 2002 - Present</div>
-                                </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div>
+                        I was born and raised in the Philippines, now based in Lakewood, CA. My passions have brought me to software development and the field of Computer Science. While I enjoy front-end development a lot, I also dabble in other domains to learn new skills and hone them further.
+                    </div>
+                    <div>
+                        I am also a digital artist! I take commissions as freelance work from time to time. I also have a lot of experience in graphic design from past projects and visual works.
+                    </div>
+                    <div>
+                        Here are some technologies I've been working with recently:
+                    </div>
+                    <div className="flex gap-10 font-mono text-neutral-400">
+                        <div className="px-4">
+                            <ul className="list-disc list-inside">
+                                <li>HTML, CSS3</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+                        <div className="px-4">
+                            <ul className="list-disc list-inside">
+                                <li>Python</li>
+                                <li>C</li>
+                                <li>C#</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

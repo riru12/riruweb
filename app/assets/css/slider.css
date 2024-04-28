@@ -19,13 +19,13 @@
         left:0.5px;
     }
 
-    #education:checked ~ div div nav + .slider {
+    #tab-2:checked ~ div div nav + .slider {
         top: 33.3%;
     }
 
-    #professional:checked ~ div div nav + .slider {
+    #tab-3:checked ~ div div nav + .slider {
         top: 66.7%;
-}
+    }
 }
 
 @media (max-width: 768px) {
@@ -49,11 +49,11 @@
         top:100%
     }
 
-    #education:checked ~ div div nav + .slider {
+    #tab-2:checked ~ div div nav + .slider {
         left: 33.3%;
     }
     
-    #professional:checked ~ div div nav + .slider {
+    #tab-3:checked ~ div div nav + .slider {
         left: 66.7%;
     }
 }
