@@ -9,8 +9,10 @@ WHEN UPDATING WORK CONTENT, TAKE NOTE OF THE FOLLOWING:
 2) Adjust slider.css
     * add .content-n {display:none;}
     * add #tab-n:checked ~ div .content-n {display:block;}
-    * adjust top movement of the slider (depends on 100%/n)
-    * adjust left movement of the slider (increments of 150px)
+    * adjust top and left movement of the slider (increments of 100%/n)
+        #tab-n:checked ~ div div nav + .slider {
+            top: ??%;
+        }
 */
 
 const Work = () => {
@@ -25,10 +27,10 @@ const Work = () => {
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
                 <div className="flex gap-10 h-fit flex-col md:h-[40vh] md:flex-row">
                     <div className="relative h-min">
-                            <nav className="flex flex-row md:flex-col overflow-scroll">
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">AUB</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">Freelance</label></div>
+                            <nav className="flex flex-row md:flex-col">
+                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">AUB</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">Freelance</label></div>
                             </nav>
                             <div id="slider" className="slider"></div>
                             <div className="sliderBack"></div>
