@@ -1,6 +1,21 @@
 import { React } from "react";
 import "../assets/css/slider.css";
 
+/* 
+
+WHEN UPDATING WORK CONTENT, TAKE NOTE OF THE FOLLOWING:
+
+1) Adding new input (tab-n radio button), adding new tab (tab-n label), and adding new content (div) with className="content-n"
+2) Adjust slider.css
+    * add .content-n {display:none;}
+    * add #tab-n:checked ~ div .content-n {display:block;}
+    * adjust top and left movement of the slider (increments of 100%/n)
+        #tab-n:checked ~ div div nav + .slider {
+            top: ??%;
+        }
+
+*/
+
 const Work = () => {
     return(
         <section id="work" className="py-24 mx-[10vw] lg:mx-[20vw]">
