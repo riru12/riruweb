@@ -5,35 +5,33 @@ import "../assets/css/slider.css";
 
 WHEN UPDATING WORK CONTENT, TAKE NOTE OF THE FOLLOWING:
 
-1) Adding new input (tab-n radio button), adding new tab (tab-n label), and adding new content (div) with className="content-n"
+1) Adding new input (tab-n radio button), adding new tab (tab-n label), and adding new content (div) with className="work-content content-n"
 2) Adjust slider.css
     * add .content-n {display:none;}
     * add #tab-n:checked ~ div .content-n {display:block;}
-    * adjust top and left movement of the slider (increments of 100%/n)
-        #tab-n:checked ~ div div nav + .slider {
-            top: ??%;
-        }
+    * adjust HORIZONTAL length of .sliderBack (multiples of 150), and left movement of .slider
+    * adjust VERTICAL movement of .slider (100%/n)
 */
 
 const Work = () => {
     return(
         <section id="work" className="py-24 mx-[10vw] lg:mx-[20vw]">
             <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
-                <div className="font-bold text-3xl">
-                    Where I've Been
-                </div>
                 <input id="tab-1" name="slider" className="hidden" type="radio" defaultChecked></input>
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
-                <div className="flex gap-10 h-fit flex-col md:h-[40vh] md:flex-row">
-                    <div className="relative h-min">
+                <div className="flex gap-10 flex-col md:h-[40vh] md:flex-row">
+                    <div className="mx-[-10vh] px-24 md:mx-auto md:px-0"> {/* ADJUST PADDING HERE WHEN SCALING (the one not in md breakpoint, probably change it to 10 in the future) */}
+                        <div className="relative h-min w-full overflow-x-scroll md:overflow-hidden">
                             <nav className="flex flex-row md:flex-col">
-                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">AUB</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[33.3%] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">Freelance</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">UP Diliman</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">AUB</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:bg-neutral-900">Freelance</label></div>
+                                
                             </nav>
                             <div id="slider" className="slider"></div>
-                            <div className="sliderBack"></div>
+                            <div className="sliderBack"></div>  
+                        </div>
                     </div>
                     <div className="work-content content-1">
                         <div>

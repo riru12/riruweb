@@ -10,11 +10,15 @@
     display:none;
 }
 
+/* add new content here (content-n) */
+
 #tab-1:checked ~ div .content-1,
 #tab-2:checked ~ div .content-2,
 #tab-3:checked ~ div .content-3 {
     display:block;
 }
+
+/* add #tab-n:checked ~ div .content-n */
 
 .work-content {
     animation: fade-in 0.5s;
@@ -57,16 +61,22 @@
     #tab-3:checked ~ div div nav + .slider {
         top: 66.7%;
     }
+
+    /* add #tab-n:checked ~ div div nav + .slider
+    
+        top values depends on 100 / total number of content
+    
+    */
 }
 
 @media (max-width: 768px) {
     .slider{
         position: absolute;
         background-color: #bcedc5;
-        width: 33%;
+        width: 150px;
         height: 3px;
-        left:0%;
-        top:100%;
+        left:0;
+        top:90%;
         border-radius: 1px;
         transition: all 0.3s ease;
         z-index:1;
@@ -75,16 +85,22 @@
     .sliderBack{
         position:absolute;
         background-color: #525252;
-        width:100%; /* ADJUST THIS */
+        width:450px; /* adjust this when changing number of content */
         height:2px;
-        top:100%;
+        top:90%;
     }
 
     #tab-2:checked ~ div div nav + .slider {
-        left: 33.3%;
+        left: 150px;
     }
     
     #tab-3:checked ~ div div nav + .slider {
-        left: 66.7%;
+        left: 300px;
     }
+
+    /* add #tab-n:checked ~ div div nav + .slider
+    
+        left values depends on increments of 150
+    
+    */
 }
