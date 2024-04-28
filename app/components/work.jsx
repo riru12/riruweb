@@ -21,7 +21,7 @@ const Work = () => {
                             <div id="slider" className="slider"></div>
                             <div className="sliderBack"></div>
                     </div>
-                    <div className="content-1">
+                    <div className="work-content content-1">
                         <div>
                             <div className="font-bold text-xl">BS Computer Science <span className="text-[#bcedc5]">@ University of the Philippines</span></div>
                             <div className="font-mono text-sm text-neutral-400">2020 - 2024</div>
@@ -38,14 +38,14 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="content-2">
+                    <div className="work-content content-2">
                         <div>
                         <div className="font-bold text-xl">Information Security Intern <span className="text-[#bcedc5]">@ AUB</span></div>
                             <div className="font-mono text-sm text-neutral-400">July 2023 - August 2023</div>
                         </div>
                         <div className="mt-4 text-neutral-300">Interned at Asia United Bank and collaborated with other interns in developing a CLI tool using Go to automate running scripts that set up servers in accordance with security benchmarks.</div>
                     </div>
-                    <div className="content-3">
+                    <div className="work-content content-3">
                         <div>
                         <div className="font-bold text-xl">Digital Artist <span className="text-[#bcedc5]">through Freelance and Commission</span></div>
                             <div className="font-mono text-sm text-neutral-400">2021 - Present</div>
