@@ -24,16 +24,17 @@ const Work = () => {
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
                 <div className="flex gap-10 flex-col md:h-[40vh] md:flex-row">
-                    <div className="mx-[-10vh] px-20 md:mx-auto md:px-0"> {/* ADJUST PADDING HERE WHEN SCALING (the one not in md breakpoint, probably change it to 10 in the future) */}
-                        <div className="relative h-[50px] w-full overflow-x-scroll overflow-y-hidden custom-scrollbar md:overflow-hidden md:h-min">
-                            <nav className="flex flex-row md:flex-col">
+                    <div id="tablist">
+                        <div className="relative overflow-scroll h-[50px] mx-[-10vw] md:h-auto md:mx-auto custom-scrollbar">
+                            <nav className="flex flex-row md:flex-col pl-[10vw] md:pl-0">
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">UP Diliman</label></div>
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">AUB</label></div>
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">Freelance</label></div>
-                                
                             </nav>
-                            <div id="slider" className="slider"></div>
-                            <div className="sliderBack"></div>  
+                            <div className="ml-[10vw] md:ml-0">
+                                <div id="slider" className="slider ml-[10vw] md:ml-0"></div>
+                                <div className="sliderBack"></div>
+                            </div>
                         </div>
                     </div>
                     <div className="work-content content-1">
