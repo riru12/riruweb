@@ -18,6 +18,7 @@ const Projects = () => {
                         <div>
                             <div className="font-bold text-neutral-300">Project 1</div>
                             <div className="text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua.</div>
+                            <div className="font-mono text-neutral-500 text-sm mt-6">Next.js Python C</div>
                         </div>
                     </div>
                     <div className="flex flex-col bg-neutral-900 rounded p-6 gap-10">2</div>
