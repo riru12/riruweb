@@ -31,10 +31,8 @@ const Work = () => {
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">AUB</label></div>
                                 <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">Freelance</label></div>
                             </nav>
-                            <div className="ml-[10vw] md:ml-0">
-                                <div id="slider" className="slider ml-[10vw] md:ml-0"></div>
-                                <div className="sliderBack"></div>
-                            </div>
+                            <div id="slider" className="slider ml-[10vw] md:ml-0"></div>
+                            <div className="sliderBack ml-[10vw] md:ml-0"></div>
                         </div>
                     </div>
                     <div className="work-content content-1">
