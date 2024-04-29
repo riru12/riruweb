@@ -13,7 +13,7 @@ const Projects = () => {
                     <div id="projectTab" className="flex flex-col bg-neutral-900 rounded p-6 gap-10">
                         <div className="flex flex-row justify-between">
                             <FolderOutline strokeColor="#d4d4d4"/>
-                            <ExterLink strokeColor="#d4d4d4"/>
+                            <a href=""><ExterLink strokeColor="#d4d4d4"/></a>
                         </div>
                         <div>
                             <div className="font-bold text-neutral-300">Project 1</div>
