@@ -23,16 +23,16 @@ const Work = () => {
                 <input id="tab-1" name="slider" className="hidden" type="radio" defaultChecked></input>
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
-                <div className="flex gap-10 flex-col md:h-[40vh] md:flex-row">
+                <div className="flex gap-10 flex-col sm:h-[40vh] sm:flex-row">
                     <div id="tablist">
-                        <div className="relative overflow-x-scroll overflow-y-hidden h-[50px] mx-[-10vw] md:overflow-hidden md:h-min md:mx-auto custom-scrollbar">
-                            <nav className="flex flex-row md:flex-col pl-[10vw] md:pl-0">
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">UP Diliman</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">AUB</label></div>
-                                <div className="whitespace-nowrap shrink-0 w-[150px] md:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center md:px-4 md:text-base md:text-left hover:text-[#bcedc5]">Freelance</label></div>
+                        <div className="relative overflow-x-scroll overflow-y-hidden h-[50px] mx-[-10vw] sm:overflow-hidden sm:h-min sm:mx-auto custom-scrollbar">
+                            <nav className="flex flex-row sm:flex-col pl-[10vw] sm:pl-0">
+                                <div className="whitespace-nowrap shrink-0 w-[150px] sm:w-full"><label htmlFor="tab-1" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center sm:px-4 sm:text-base sm:text-left hover:text-[#bcedc5]">UP Diliman</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[150px] sm:w-full"><label htmlFor="tab-2" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center sm:px-4 sm:text-base sm:text-left hover:text-[#bcedc5]">AUB</label></div>
+                                <div className="whitespace-nowrap shrink-0 w-[150px] sm:w-full"><label htmlFor="tab-3" className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center sm:px-4 sm:text-base sm:text-left hover:text-[#bcedc5]">Freelance</label></div>
                             </nav>
-                            <div id="slider" className="slider ml-[10vw] md:ml-0"></div>
-                            <div className="sliderBack ml-[10vw] md:ml-0"></div>
+                            <div id="slider" className="slider ml-[10vw] sm:ml-0"></div>
+                            <div className="sliderBack ml-[10vw] sm:ml-0"></div>
                         </div>
                     </div>
                     <div className="work-content content-1">
