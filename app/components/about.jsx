@@ -4,10 +4,10 @@ import "../assets/css/slider.css";
 const About = () => {
     return(
         <section id="about" className="py-24 mx-[10vw] lg:mx-[20vw]">
-            <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
+            <div className="flex flex-col gap-10 mx-0 2xl:mx-40">
                 <div className="flex flex-col gap-4 ">
                     <div className="font-bold text-3xl">
-                        About
+                        <span className="font-mono text-2xl text-neutral-300">01.</span>About
                     </div>
                     <div className="text-neutral-300">
                         I was born and raised in the Philippines. My passions have brought me to software development and the field of Computer Science — while I enjoy front-end development a lot, I also dabble in other domains to learn new skills and hone them further.
