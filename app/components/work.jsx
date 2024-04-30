@@ -16,14 +16,14 @@ WHEN UPDATING WORK CONTENT, TAKE NOTE OF THE FOLLOWING:
 const Work = () => {
     return(
         <section id="work" className="py-24 mx-[10vw] lg:mx-[20vw]">
-            <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-52">
+            <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-[13.5rem]">
                 <div className="font-bold text-3xl">
-                    <span className="font-mono text-2xl text-neutral-300">02.</span>Where I've Been
+                    <span className="font-mono text-2xl">02.</span>Where I've Been
                 </div>
                 <input id="tab-1" name="slider" className="hidden" type="radio" defaultChecked></input>
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>
                 <input id="tab-3" name="slider" className="hidden" type="radio"></input>
-                <div className="flex gap-10 flex-col sm:h-[25vh] sm:flex-row">
+                <div className="flex gap-10 flex-col sm:h-[30vh] sm:flex-row">
                     <div id="tablist">
                         <div className="relative overflow-x-scroll overflow-y-hidden h-[50px] mx-[-10vw] sm:overflow-hidden sm:h-min sm:mx-auto custom-scrollbar">
                             <nav className="flex flex-row sm:flex-col pl-[10vw] sm:pl-0">

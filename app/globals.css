@@ -18,7 +18,7 @@
 
 html {
   @apply scroll-smooth;
-  overflow-x:hidden;
+  overflow: hidden;
 }
 
 body {
@@ -29,8 +29,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    overflow-x:hidden;
-    position: relative
+    overflow: hidden;
+    position: relative;
 }
 
 @layer utilities {
