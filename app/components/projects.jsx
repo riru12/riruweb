@@ -15,7 +15,7 @@ const Projects = () => {
                     {projects.map(project => (
                         <div key={project.id} className="flex flex-col bg-neutral-900 rounded p-6 gap-10 justify-between">
                             <div className="flex flex-row justify-between">
-                                <FolderOutline strokeColor="#d4d4d4" />
+                                <FolderOutline strokeColor="#bcedc5" />
                                 <div className="flex gap-3">
                                     {project.gitlink && <a href={project.gitlink}><GitLink fillColor="#d4d4d4" /></a>}
                                     {project.exterlink && <a href={project.exterlink}><ExterLink strokeColor="#d4d4d4" /></a>}
