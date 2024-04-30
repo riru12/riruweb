@@ -1,6 +1,6 @@
 import { React } from "react";
 import "../assets/css/slider.css";
-import tabs from "../assets/content/tabs.json";
+import tabs from "../assets/content/work.json";
 
 /* 
 
@@ -36,21 +36,21 @@ const Work = () => {
                         </div>
                     </div>
                     {tabs.map(tab => (
-                            <div key={tab.id} className={`work-content content-${tab.id}`}>
-                                <div>
-                                    <div className="font-bold text-xl">{tab.title} <span className="text-[#bcedc5]">{tab.place}</span></div>
-                                    <div className="font-mono text-sm text-neutral-400">{tab.date}</div>
-                                    </div>
-                                <div className="mt-4 text-neutral-300">{tab.description}</div>
+                        <div key={tab.id} className={`work-content content-${tab.id}`}>
+                            <div>
+                                <div className="font-bold text-xl">{tab.title} <span className="text-[#bcedc5]">{tab.place}</span></div>
+                                <div className="font-mono text-sm text-neutral-400">{tab.date}</div>
+                                </div>
+                            <div className="mt-4 text-neutral-300">{tab.description}</div>
 
-                                {tab.sublist && <div className="flex gap-10 font-mono text-neutral-400 mt-4">
-                                    <div className="px-4">
-                                        <ul className="list-disc list-inside">
-                                            {tab.sublist.map((item,index) => (<li key={index}>{item}</li>))}
-                                        </ul>
-                                    </div>
-                                </div>}
-                            </div>
+                            {tab.sublist && <div className="flex gap-10 font-mono text-neutral-400 mt-4">
+                                <div className="px-4">
+                                    <ul className="list-disc list-inside">
+                                        {tab.sublist.map((item,index) => (<li key={index}>{item}</li>))}
+                                    </ul>
+                                </div>
+                            </div>}
+                        </div>
                     ))}
                 </div>
             </div>
