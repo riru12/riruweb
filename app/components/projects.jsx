@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className="grid auto-rows-fr gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {projects.map(project => (
                         <div key={project.id} className="group">
-                            <div className="flex flex-col bg-neutral-900 h-full rounded p-6 gap-10 justify-between group-hover:translate-y-[-10px] transition-transform">
+                            <div className="flex flex-col bg-neutral-900 h-full rounded p-6 gap-10 justify-between sm:group-hover:translate-y-[-10px] transition-transform">
                                 <div className="flex flex-row justify-between">
                                     <FolderOutline strokeColor="#bcedc5" />
                                     <div className="flex gap-3">
