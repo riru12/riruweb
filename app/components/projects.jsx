@@ -1,7 +1,7 @@
 import React from "react";
 import FolderOutline from "../assets/icons/FolderOutline.jsx"
 import ExterLink from "../assets/icons/ExterLink.jsx"
-import GitLink from "../assets/icons/GitLink.jsx";
+import GitLink from "../assets/icons/GithubIcon.jsx";
 import projects from "../assets/content/projects.json"
 
 const Projects = () => {

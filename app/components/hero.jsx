@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/css/hero.css";
+import GithubIcon from "../assets/icons/GithubIcon";
+import TwitterIcon from "../assets/icons/TwitterIcon";
 
 const Hero = () => {
     return(
@@ -23,7 +25,25 @@ const Hero = () => {
                     <span className="special text-[0px]">!</span>
                 </div>
             </div>
-            <div className="flex justify-center text-center unfancy font-mono text-neutral-400 py-6">developer, digital artist, and pc enthusiast
+            <div className="flex justify-center text-center unfancy font-mono text-neutral-400 py-6">
+                <div className="relative group cursor-pointer">
+                    <a href="https://github.com/riru12" target="_blank">
+                        <span className="group-hover:text-white">developer</span>
+                        <div className="absolute left-[50%] transition-all translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-75%] group-hover:opacity-100">
+                            <GithubIcon fillColor="#ffffff" />
+                        </div>
+                    </a>
+                </div>,&nbsp;
+                <div className="relative group cursor-pointer">
+                    <a href="https://twitter.com/artofriru" target="_blank">
+                        <span className="group-hover:text-[#1da1f2]">digital artist</span>
+                        <div className="absolute left-[50%] transition-all translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-75%] group-hover:opacity-100">
+                            <TwitterIcon />
+                        </div>
+                    </a>
+                </div>, 
+                and 
+                pc enthusiast
             </div>
         </section>
     )
