@@ -18,7 +18,7 @@ const Work = () => {
         <section id="work" className="py-24 mx-[10vw] lg:mx-[20vw]">
             <div className="flex flex-col gap-10 mx-0 xl:mx-24 2xl:mx-[13.5rem]">
                 <div className="font-bold text-3xl">
-                    <span className="font-mono text-2xl">02.</span>Where I've Been
+                    <span className="font-mono text-2xl text-neutral-300">02.</span>Where I've Been
                 </div>
                 <input id="tab-1" name="slider" className="hidden" type="radio" defaultChecked></input>
                 <input id="tab-2" name="slider" className="hidden" type="radio"></input>

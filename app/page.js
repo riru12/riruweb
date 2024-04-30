@@ -11,7 +11,7 @@ import Footer from "./components/footer"
 
 export default function Home() {
   return (
-    <main className="overflow-y-scroll max-h-screen">
+    <main>
       <Navbar />
       <Gradient />
       <Hero />
