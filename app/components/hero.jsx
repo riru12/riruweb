@@ -55,6 +55,7 @@ const Hero = () => {
                         </div>
                     </a>
                 </div>
+                <div className="cursor-default">&nbsp;</div>
                 <div className="cursor-default whitespace-nowrap">and pc enthusiast</div>
             </div>
         </section>
