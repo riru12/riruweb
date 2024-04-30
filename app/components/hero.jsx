@@ -11,7 +11,7 @@ const Hero = () => {
                     <div className="px-1 transition-opacity opacity-0 group-hover:opacity-100">
                         👋
                     </div>
-                    <div className="absolute px-1 right-0 transition-transform top-[-50%] translate-y-[50%] group-hover:translate-x-[-30%]    ">
+                    <div className="absolute px-1 right-0 transition-transform top-[-50%] translate-y-[50%] group-hover:translate-x-[-38%]    ">
                         hello!
                     </div>
                 </div>
