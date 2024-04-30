@@ -37,25 +37,25 @@ const Hero = () => {
                     <span className="special text-[0px]">!</span>
                 </div>
             </div>
-            <div className="flex justify-center text-center unfancy font-mono text-neutral-400 py-6">
+            <div className="flex flex-wrap justify-center text-center unfancy font-mono text-neutral-400 py-6">
                 <div className="relative group cursor-pointer">
                     <a href="https://github.com/riru12" target="_blank">
-                        <span className="group-hover:text-white">developer</span>
+                        <span className="group-hover:text-white whitespace-nowrap">developer</span>,
                         <div className="absolute transition-all left-[50%] translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-75%] group-hover:opacity-100">
                             <GithubIcon fillColor="#ffffff" />
                         </div>
                     </a>
                 </div>
-                <div className="cursor-default">,&nbsp;</div>
+                <div className="cursor-default">&nbsp;</div>
                 <div className="relative group cursor-pointer">
                     <a href="https://twitter.com/artofriru" target="_blank">
-                        <span className="group-hover:text-[#1da1f2]">digital artist</span>
+                        <span className="group-hover:text-[#1da1f2] whitespace-nowrap">digital artist</span>,
                         <div className="absolute transition-all left-[50%] translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-75%] group-hover:opacity-100">
                             <TwitterIcon />
                         </div>
                     </a>
                 </div>
-                <div className="cursor-default">, and pc enthusiast</div>
+                <div className="cursor-default whitespace-nowrap">and pc enthusiast</div>
             </div>
         </section>
     )
