@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "DCS Helpdesk",
+        "description": "Ticket management webapp developed using React and Google Firebase",
+        "technologies": ["React", "Firebase"],
+        "gitlink": "",
+        "exterlink": "https://dcs-tix.netlify.app/"
+    },
+    {
+        "id": 2,
+        "name": "CS 132 Portfolio",
+        "description": "A project in data science to analyze factors affecting Philippine poverty",
+        "technologies": ["Python", "React", "Tailwind"],
+        "gitlink": "https://github.com/riru12/cs132portfolio",
+        "exterlink": "https://riru12.github.io/cs132portfolio/"
+    },
+    {
+        "id": 3,
+        "name": "Metrocycle",
+        "description": "Interactive road safety training application for motorcyclists and bicyclists",
+        "technologies": ["Unity", "C#"],
+        "gitlink": "https://github.com/jmbatrina/Metrocycle-prototype",
+        "exterlink": ""
+    }
+]

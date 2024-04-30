@@ -1,6 +1,8 @@
 import React from "react";
 import FolderOutline from "../assets/icons/FolderOutline.jsx"
 import ExterLink from "../assets/icons/ExterLink.jsx"
+import GitLink from "../assets/icons/GitLink.jsx";
+import projects from "../assets/content/projects.json"
 
 const Projects = () => {
     return(
@@ -10,19 +12,24 @@ const Projects = () => {
                     <span className="font-mono text-2xl text-neutral-300">03.</span>Projects
                 </div>
                 <div className="grid auto-rows-fr gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                    <div id="projectTab" className="flex flex-col bg-neutral-900 rounded p-6 gap-10">
-                        <div className="flex flex-row justify-between">
-                            <FolderOutline strokeColor="#d4d4d4"/>
-                            <a href=""><ExterLink strokeColor="#d4d4d4"/></a>
+                    {projects.map(project => (
+                        <div key={project.id} className="flex flex-col bg-neutral-900 rounded p-6 gap-10 justify-between">
+                            <div className="flex flex-row justify-between">
+                                <FolderOutline strokeColor="#d4d4d4" />
+                                <div className="flex gap-3">
+                                    {project.gitlink && <a href={project.gitlink}><GitLink fillColor="#d4d4d4" /></a>}
+                                    {project.exterlink && <a href={project.exterlink}><ExterLink strokeColor="#d4d4d4" /></a>}
+                                </div>
+                            </div>
+                            <div>
+                                <div id="projectName" className="font-bold text-neutral-300">{project.name}</div>
+                                <div className="flex flex-col gap-4">
+                                    <div id="projectDesc" className="text-neutral-400">{project.description}</div>
+                                    <div id="projectTech" className="font-mono text-neutral-500 text-sm">{project.technologies.join(' ')}</div>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <div className="font-bold text-neutral-300">Project 1</div>
-                            <div className="text-neutral-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt aliqua.</div>
-                            <div className="font-mono text-neutral-500 text-sm mt-6">Next.js Python C</div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col bg-neutral-900 rounded p-6 gap-10">2</div>
-                    <div className="flex flex-col bg-neutral-900 rounded p-6 gap-10">3</div>
+                    ))}
                 </div>
             </div>
         </section>
