@@ -37,4 +37,4 @@ next-env.d.ts
 
 # testing section
 /app/components/test.jsx
-/app/assets/css/slider_test.css
+/app/assets/css/test.css
