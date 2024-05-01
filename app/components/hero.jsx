@@ -39,19 +39,19 @@ const Hero = () => {
             </div>
             <div className="flex flex-wrap justify-center text-center unfancy font-mono text-neutral-400 cursor-default py-6">
                 <div className="relative group">
-                    <span className="whitespace-nowrap">developer</span>,
+                    <span className="whitespace-nowrap">developer</span>
                     <div className="absolute transition-all left-[50%] translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-50%] group-hover:opacity-100">
                         <a href="https://github.com/riru12" target="_blank"><div className="flex gap-1 text-white"><GithubIcon fillColor="#ffffff" /> riru12</div></a>
                     </div>
                 </div>
-                &nbsp;
+                ,&nbsp;
                 <div className="relative group">
-                    <span className="whitespace-nowrap">digital artist</span>,
+                    <span className="whitespace-nowrap">digital artist</span>
                     <div className="absolute transition-all left-[50%] translate-x-[-50%] top-[-50%] translate-y-[50%] opacity-0 group-hover:translate-y-[-50%] group-hover:opacity-100">
                         <a href="https://twitter.com/artofriru" target="_blank"><div className="flex gap-1 text-[#1da1f2]"><TwitterIcon /> @artofriru</div></a>
                     </div>
                 </div>
-                &nbsp;
+                ,&nbsp;
                 <div className="whitespace-nowrap">and pc enthusiast</div>
             </div>
         </section>
