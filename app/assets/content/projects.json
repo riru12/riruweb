@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "CS 132 Portfolio",
-        "description": "A project in data science to analyze factors affecting Philippine poverty",
+        "description": "Data science project that analyzes factors affecting Philippine poverty",
         "technologies": ["Python", "React", "Tailwind"],
         "gitlink": "https://github.com/riru12/cs132portfolio",
         "exterlink": "https://riru12.github.io/cs132portfolio/"
