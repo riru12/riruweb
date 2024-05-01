@@ -11,7 +11,7 @@ const Projects = () => {
                 <div className="font-bold text-3xl">
                     <span className="font-mono text-2xl text-neutral-300">03.</span>Projects
                 </div>
-                <div className="grid auto-rows-fr gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid auto-rows-fr gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     {projects.map(project => (
                         <div key={project.id} className="group cursor-default">
                             <div className="flex flex-col bg-neutral-900 h-full rounded p-6 gap-10 justify-between sm:group-hover:translate-y-[-10px] transition-transform">
