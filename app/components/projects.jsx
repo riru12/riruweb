@@ -1,7 +1,7 @@
 import React from "react";
 import FolderOutline from "../assets/icons/FolderOutline.jsx"
 import ExterLink from "../assets/icons/ExterLink.jsx"
-import GitLink from "../assets/icons/GithubIcon.jsx";
+import GithubIcon from "../assets/icons/GithubIcon.jsx";
 import projects from "../assets/content/projects.json"
 
 const Projects = () => {
@@ -13,12 +13,12 @@ const Projects = () => {
                 </div>
                 <div className="grid auto-rows-fr gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {projects.map(project => (
-                        <div key={project.id} className="group">
+                        <div key={project.id} className="group cursor-default">
                             <div className="flex flex-col bg-neutral-900 h-full rounded p-6 gap-10 justify-between sm:group-hover:translate-y-[-10px] transition-transform">
                                 <div className="flex flex-row justify-between">
                                     <FolderOutline strokeColor="#bcedc5" />
                                     <div className="flex gap-3">
-                                        {project.gitlink && <a href={project.gitlink} target="_blank"><GitLink fillColor="#d4d4d4" /></a>}
+                                        {project.gitlink && <a href={project.gitlink} target="_blank"><GithubIcon fillColor="#d4d4d4" /></a>}
                                         {project.exterlink && <a href={project.exterlink} target="_blank"><ExterLink strokeColor="#d4d4d4" /></a>}
                                     </div>
                                 </div>
