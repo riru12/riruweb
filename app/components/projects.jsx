@@ -36,7 +36,7 @@ const Projects = () => {
                                     <div id="projectName" className="font-bold text-neutral-300 group-hover:text-[#bcedc5] transition-colors">{project.name}</div>
                                     <div className="flex flex-col gap-4">
                                         <div id="projectDesc" className="text-neutral-400">{project.description}</div>
-                                        <div id="projectTech" className="font-mono text-neutral-500 text-sm">{project.technologies.join(' ')}</div>
+                                        <div id="projectTech" className="font-mono text-neutral-500 text-xs">{project.technologies.join(' ')}</div>
                                     </div>
                                 </div>
                             </div>
