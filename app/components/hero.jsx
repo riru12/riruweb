@@ -45,7 +45,7 @@ const Hero = () => {
                 ,&nbsp;
                 <div className="whitespace-nowrap">and pc enthusiast</div>
             </div>
-            <div className="flex flex-col text-center gap-1 items-center font-mono text-sm text-neutral-600 unfancy md:gap-3 md:flex-row"><InfoIcon strokeColor="#525252"/>note: this page is still a work-in-progress!</div>
+            <div className="flex flex-col text-center gap-1 items-center font-mono text-sm text-neutral-600 unfancy md:gap-3 md:flex-row"><InfoIcon strokeColor="#525252"/>note: work-in-progress! still adding more over time</div>
         </section>
     )
 }
