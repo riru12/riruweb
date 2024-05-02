@@ -3,7 +3,7 @@
         "id": 1,
         "name": "DCS Helpdesk",
         "description": "Ticket management webapp developed for the Department of Computer Science in UPD",
-        "technologies": ["React", "Firebase"],
+        "technologies": ["React", "Bootstrap", "Firebase"],
         "doclink": "",
         "figmalink": "",
         "gitlink": "",
