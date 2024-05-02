@@ -16,7 +16,7 @@ const Contact = () => {
                             Want to reach out? Feel free to contact me through any of the following platforms:
                         </div>
                     </div>
-                    <div className="flex flex-row gap-4">
+                    <div className="flex flex-row gap-8">
                         <a href="https://github.com/riru12" target="_blank"><GithubIcon fillColor="#ffffff" /></a>
                         <a href="https://www.linkedin.com/in/brill-rina/" target="_blank"><LinkedinIcon fillColor="#ffffff" /></a>
                         <a href="https://twitter.com/artofriru" target="_blank"><TwitterIcon fillColor="#ffffff" /></a>
