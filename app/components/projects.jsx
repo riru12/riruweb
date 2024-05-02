@@ -17,9 +17,19 @@ const Projects = () => {
                             <div className="flex flex-col bg-neutral-900 h-full rounded p-6 gap-10 justify-between sm:group-hover:translate-y-[-10px] transition-transform">
                                 <div className="flex flex-row justify-between">
                                     <FolderOutline strokeColor="#bcedc5" />
-                                    <div className="flex gap-3">
-                                        {project.gitlink && <a href={project.gitlink} target="_blank"><GithubIcon fillColor="#d4d4d4" /></a>}
-                                        {project.exterlink && <a href={project.exterlink} target="_blank"><ExterLink strokeColor="#d4d4d4" /></a>}
+                                    <div className="flex gap-3 h-min">
+                                        {project.gitlink && 
+                                            <div className="relative group/git h-min">
+                                                <a href={project.gitlink} target="_blank"><GithubIcon fillColor="#d4d4d4" /></a>
+                                                <div className="absolute whitespace-nowrap text-sm bg-neutral-800 p-2 rounded-xl font-mono transition-all left-[50%] translate-x-[-50%] top-0 translate-y-[-110%] hidden group-hover/git:block">Git Repo</div>
+                                            </div>
+                                        }
+                                        {project.exterlink && 
+                                            <div className="relative group/live h-min">
+                                                <a href={project.exterlink} target="_blank"><ExterLink strokeColor="#d4d4d4" /></a>
+                                                <div className="absolute whitespace-nowrap text-sm bg-neutral-800 p-2 rounded-xl font-mono transition-all left-[50%] translate-x-[-50%] top-0 translate-y-[-110%] hidden group-hover/live:block">Live Link</div>
+                                            </div>
+                                        }
                                     </div>
                                 </div>
                                 <div>
