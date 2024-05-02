@@ -28,7 +28,7 @@ const Navbar = () => {
                         <div>Works</div>
                     </div>
                 </a>
-                <a className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
+                <a href="#contact" className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
                     <div className="flex flex-col gap-1 md:flex-row md:gap-2">
                         <div className="flex justify-center items-center"><ContactIcon fillColor="#d4d4d4"/></div>
                         <div>Contact</div>
