@@ -2,6 +2,8 @@ import React from "react";
 import FolderOutline from "../assets/icons/FolderOutline.jsx"
 import ExterLink from "../assets/icons/ExterLink.jsx"
 import GithubIcon from "../assets/icons/GithubIcon.jsx";
+import FigmaIcon from "../assets/icons/FigmaIcon.jsx";
+import DocumentIcon from "../assets/icons/DocumentIcon.jsx";
 import projects from "../assets/content/projects.json"
 
 const Projects = () => {
@@ -18,6 +20,18 @@ const Projects = () => {
                                 <div className="flex flex-row justify-between">
                                     <FolderOutline strokeColor="#bcedc5" />
                                     <div className="flex gap-3 h-min">
+                                        {project.doclink && 
+                                            <div className="relative group/git h-min">
+                                                <a href={project.doclink} target="_blank"><DocumentIcon strokeColor="#d4d4d4" /></a>
+                                                <div className="absolute whitespace-nowrap text-xs bg-neutral-800 px-3 py-2 rounded-xl font-mono transition-all left-[50%] translate-x-[-50%] top-0 translate-y-[-110%] hidden group-hover/git:block">Documentation</div>
+                                            </div>
+                                        }
+                                        {project.figmalink && 
+                                            <div className="relative group/git h-min">
+                                                <a href={project.figmalink} target="_blank"><FigmaIcon strokeColor="#d4d4d4"/></a>
+                                                <div className="absolute whitespace-nowrap text-xs bg-neutral-800 px-3 py-2 rounded-xl font-mono transition-all left-[50%] translate-x-[-50%] top-0 translate-y-[-110%] hidden group-hover/git:block">Figma</div>
+                                            </div>
+                                        }
                                         {project.gitlink && 
                                             <div className="relative group/git h-min">
                                                 <a href={project.gitlink} target="_blank"><GithubIcon fillColor="#d4d4d4" /></a>
