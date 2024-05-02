@@ -41,12 +41,12 @@
     },
     {
         "id": 5,
-        "name": "QuickAff",
-        "description": "Proof of concept of a streamlined organization membership renewal webapp",
-        "technologies": ["React", "Tailwind", "PostgreSQL"],
+        "name": "ichika",
+        "description": "Discord bot that uses a third-party API to fetch a research article by title or DOI",
+        "technologies": ["Python", "Discord.js"],
         "doclink": "",
         "figmalink": "",
-        "gitlink": "https://github.com/riru12/QuickAff",
+        "gitlink": "https://github.com/riru12/ichika",
         "exterlink": ""
     },
     {
