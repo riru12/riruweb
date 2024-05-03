@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/button.css"
 import GithubIcon from "../assets/icons/GithubIcon";
 import LinkedinIcon from "../assets/icons/LinkedinIcon";
 import TwitterIcon from "../assets/icons/TwitterIcon";
@@ -24,7 +25,7 @@ const Contact = () => {
                     <div className="text-neutral-300 text-center">
                         or directly send me an email!
                     </div>
-                    <a className="font-mono rounded border-[1px] border-[#bcedc5] text-[#bcedc5] text-sm px-6 py-4" href="mailto:brilljulianrina@gmail.com">Say Hello</a>
+                    <a className="back" href="mailto:brilljulianrina@gmail.com"><span className="front font-mono text-sm">Say Hello</span></a>
                 </div>
             </div>
         </section>
