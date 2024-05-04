@@ -21,14 +21,14 @@ const Work = () => {
                     <span className="font-mono text-2xl ">02.</span>Where I've Been
                 </div>
                 {tabs.map(tab => (
-                    <input key={tab.id} id={`tab-${tab.id}`} name="slider" type="radio" className="hidden" defaultChecked={tab.id == 1}></input>
+                    <input key={tab.id} id={"tab-"+tab.id} name="slider" type="radio" className="hidden" defaultChecked={tab.id == 1}></input>
                 ))}
                 <div className="flex gap-10 flex-col sm:h-[30vh] sm:flex-row">
                     <div id="tablist">
                         <div className="relative overflow-x-scroll overflow-y-hidden h-[50px] mx-[-10vw] sm:overflow-hidden sm:h-min sm:mx-auto custom-scrollbar">
                             <nav className="flex flex-row sm:flex-col pl-[10vw] sm:pl-0">
                                 {tabs.map(tab => (
-                                    <div  key={tab.id} className="whitespace-nowrap shrink-0 w-[150px] sm:w-full"><label htmlFor={`tab-${tab.id}`} className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center sm:px-4 sm:text-base sm:text-left hover:text-[#bcedc5]">{tab.tabname}</label></div>
+                                    <div  key={tab.id} className="whitespace-nowrap shrink-0 w-[150px] sm:w-full"><label htmlFor={"tab-"+tab.id} className="block font-mono text-neutral-300 cursor-pointer py-2 px-0 text-sm text-center sm:px-4 sm:text-base sm:text-left hover:text-[#bcedc5]">{tab.tabname}</label></div>
                                 ))}
                             </nav>
                             <div id="slider" className="slider ml-[10vw] sm:ml-0"></div>

@@ -8,6 +8,7 @@ import Contact from "./components/contact"
 import Footer from "./components/footer"
 /* for testing section */
 /* import Test from "./components/test" */
+import Test from "./components/test"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Projects />
       <Contact />
       {/* <Test /> */}
+      <Test />
       <Footer />
     </main>
   );
