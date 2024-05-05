@@ -25,7 +25,7 @@ const Contact = () => {
                     <div className="text-neutral-300 text-center">
                         or directly send me an email!
                     </div>
-                    <a className="back" href="mailto:brilljulianrina@gmail.com"><span className="front font-mono text-sm">Say Hello</span></a>
+                    <a className="back" href="mailto:bgrina.office@gmail.com"><span className="front font-mono text-sm">Say Hello</span></a>
                 </div>
             </div>
         </section>
