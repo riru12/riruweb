@@ -3,14 +3,8 @@
     scrollbar-width: thin;
 }
 
-.content-1 {
-    display:none;
-}
-
-.content-2 {
-    display:none;
-}
-
+.content-1,
+.content-2,
 .content-3 {
     display:none;
 }
@@ -19,7 +13,8 @@
 
 #tab-1:checked ~ div .content-1,
 #tab-2:checked ~ div .content-2,
-#tab-3:checked ~ div .content-3 {
+#tab-3:checked ~ div .content-3,
+#tab-4:checked ~ div .content-4 {
     display:block;
 }
 
