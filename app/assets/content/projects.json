@@ -13,11 +13,11 @@
         "id": 2,
         "name": "CS 132 Portfolio (WIP)",
         "description": "Data science project that analyzes factors affecting Philippine poverty",
-        "technologies": ["Python", "React", "Tailwind"],
+        "technologies": ["Python", "SvelteKit", "Tailwind"],
         "doclink": "",
         "figmalink": "",
         "gitlink": "https://github.com/riru12/cs132portfolio",
-        "exterlink": "https://riru12.github.io/cs132portfolio/"
+        "exterlink": ""
     },
     {
         "id": 3,
