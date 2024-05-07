@@ -13,25 +13,25 @@ const Navbar = () => {
                 <a href="#hero" className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
                     <div className="flex flex-col gap-1 md:flex-row md:gap-2">
                         <div className="flex justify-center items-center"><HomeIcon fillColor="#d4d4d4"/></div>
-                        <div>Home</div>
+                        <div className="font-bold text-[0.8rem] md:text-[1rem]">Home</div>
                     </div>
                 </a>
                 <a href="#about" className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
                     <div className="flex flex-col gap-1 md:flex-row md:gap-2">
                         <div className="flex justify-center items-center"><AboutIcon fillColor="#d4d4d4"/></div>
-                        <div>About</div>
+                        <div className="font-bold text-[0.8rem] md:text-[1rem]">About</div>
                     </div>
                 </a>
                 <a href="#work" className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
                     <div className="flex flex-col gap-1 md:flex-row md:gap-2">
                         <div className="flex justify-center items-center"><WorkIcon fillColor="#d4d4d4"/></div>
-                        <div>Works</div>
+                        <div className="font-bold text-[0.8rem] md:text-[1rem]">Works</div>
                     </div>
                 </a>
                 <a href="#contact" className="grow rounded-[12px] text-neutral-300 hover:bg-[#40404080] text-center px-4 py-2 cursor-pointer" tabIndex="0">
                     <div className="flex flex-col gap-1 md:flex-row md:gap-2">
                         <div className="flex justify-center items-center"><ContactIcon fillColor="#d4d4d4"/></div>
-                        <div>Contact</div>
+                        <div className="font-bold text-[0.8rem] md:text-[1rem]">Contact</div>
                     </div>
                 </a>
             </nav>
