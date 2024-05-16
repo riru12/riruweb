@@ -42,8 +42,8 @@
     {
         "id": 5,
         "name": "ichika",
-        "description": "Discord bot that uses a third-party API to fetch a research article by title or DOI",
-        "technologies": ["Python", "Discord.js"],
+        "description": "Manga reader website that uses Cloudinary API to store images",
+        "technologies": ["SvelteKit", "Express.js", "MongoDB"],
         "doclink": "",
         "figmalink": "",
         "gitlink": "https://github.com/riru12/ichika",
