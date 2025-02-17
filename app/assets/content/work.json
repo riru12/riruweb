@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "tabname": "UP Diliman",
-        "title": "BS Computer Science",
-        "place":"@ University of the Philippines",
-        "date": "2020 - 2024",
-        "description": "I had the opportunity to study in the Philippines' premier state university. Learned computer science concepts and developed plenty of projects for software engineering classes, operating systems classes, data structure classes, etc. (stuff like an RSDL task scheduler and an AI model to predict risk of heart attacks).",
-        "sublist":["Summa Cum Laude", "University Scholar Awardee", "UP CURSOR", "DevelUP"]
+        "tabname": "Azeus Systems",
+        "title": "Software Developer",
+        "place":"@ Azeus Systems Limited",
+        "date": "August 2024 - Present",
+        "description": "Contributing to the development of Convene ESG, a sustainability reporting platform, enhancing its capabilities to support various Environmental, Social, and Governance (ESG) metrics.",
+        "sublist":""
     },
     {
         "id": 2,
@@ -19,6 +19,15 @@
     },
     {
         "id": 3,
+        "tabname": "UP Diliman",
+        "title": "BS Computer Science",
+        "place":"@ University of the Philippines",
+        "date": "2020 - 2024",
+        "description": "I had the opportunity to study in the Philippines' premier state university. Learned computer science concepts and developed plenty of projects for software engineering classes, operating systems classes, data structure classes, etc. (stuff like an RSDL task scheduler and an AI model to predict risk of heart attacks).",
+        "sublist":["Summa Cum Laude", "University Scholar Awardee", "UP CURSOR", "DevelUP"]
+    },
+    {
+        "id": 4,
         "tabname": "Freelance",
         "title": "Digital Artist",
         "place":"through Freelance and Commission",
