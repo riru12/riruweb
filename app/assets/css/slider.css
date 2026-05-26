@@ -91,7 +91,7 @@
     .sliderBack{
         position:absolute;
         background-color: #525252;
-        width:450px; /* adjust this when changing number of content */
+        width:600px; /* adjust this when changing number of content */
         height:2px;
         bottom:18%;
     }
