@@ -104,6 +104,10 @@
         left: 300px;
     }
 
+    #tab-4:checked ~ div div nav + .slider {
+        left: 450px;
+    }
+
     /* add #tab-n:checked ~ div div nav + .slider
     
         left values depends on increments of 150
